@@ -1,5 +1,5 @@
 //var serverurl = 'https://tailwindserverweb.onrender.com';
-var serverurl = 'http://192.168.14.9:3000';
+var serverurl = 'https://weblocalhostserver.onrender.com';
 localStorage.setItem('serverurl', serverurl);
 var hasFetchedArticles = false;
 const articshow = []
