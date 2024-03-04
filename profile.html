@@ -324,7 +324,9 @@
     }       
     /////////////////////////////////////////////////////////////////////////////////////////
     // Function to fetch user data from the backend
-    const serverurl=localStorage.getItem('serverurl') 
+    //const serverurl=localStorage.getItem('serverurl') 
+    var serverurl = 'https://weblocalhostserver.onrender.com';
+
     async function fetchUserData(username) {
             try {
                 const response = await fetch(serverurl+`/api/userdata?username=${username}`);
