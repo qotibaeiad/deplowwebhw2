@@ -1,6 +1,6 @@
 //var serverurl = 'https://tailwindserverweb.onrender.com';
 var serverurl = 'https://weblocalhostserver.onrender.com';
-localStorage.setItem('serverurl', serverurl);
+//localStorage.setItem('serverurl', serverurl);
 var hasFetchedArticles = false;
 const articshow = []
 let indexarticle;
