@@ -1,5 +1,8 @@
-//var serverurl = 'https://tailwindserverweb.onrender.com';
-var serverurl = 'https://weblocalhostserver.onrender.com';
+// var serverurl = 'https://tailwindserverweb.onrender.com';
+// http://localhost:5173
+var serverurl = 'http://localhost:5173';
+
+// var serverurl = 'https://weblocalhostserver.onrender.com';
 //localStorage.setItem('serverurl', serverurl);
 var hasFetchedArticles = false;
 const articshow = []
